@@ -3,12 +3,14 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - pip
-  - ipywidgets
-  - ipython
   - numpy
-  - pandas
-  - matplotlib
-  - plotly
-  - seaborn
-  - sklearn
+  - pip
+  - pip:
+    - ipywidgets
+    - ipython
+    - numpy
+    - pandas
+    - matplotlib
+    - plotly
+    - seaborn
+    - sklearn
