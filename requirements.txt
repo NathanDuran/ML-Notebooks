@@ -1,5 +1,6 @@
 ipywidgets
 ipython
+nbformat==5.0.4
 numpy
 pandas
 gluonnlp
